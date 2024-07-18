@@ -60,3 +60,4 @@ else:
                 st.markdown(gemini_response.text)
         except Exception as e:
             st.error(f"Failed to get response from Gemini-Pro: {e}")
+
