@@ -13,7 +13,7 @@ st.set_page_config(
     layout="centered",  # Page layout option
 )
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = os.getenv("API_KEY")
 
 # Check if the API key is present
 if not GOOGLE_API_KEY:
